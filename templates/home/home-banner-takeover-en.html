@@ -31,12 +31,15 @@
         <!-- Default image: <div [data-src]> with no data-media attribute is displayed when:
 				1. None of the other <div [data-src]> media queries match.
 				2. The browser doesn't support media queries --> 
-        <span data-src="https://www.canada.ca/content/dam/pch/testing-folder/images/profile-md.png"></span> 
+        <span data-src="./img/profile-xs.png"></span> 
         <!-- Images for browsers with CSS media query support --> 
-        <span data-src="https://www.canada.ca/content/dam/pch/testing-folder/images/profile-xs.png" data-media="(min-width: 0px)"></span> <span data-src="https://www.canada.ca/content/dam/pch/testing-folder/images/profile-md.png" data-media="(min-width: 500px)"></span> <span data-src="https://www.canada.ca/content/dam/pch/testing-folder/images/profile-lg.png" data-media="(min-width: 960px)"></span> <span data-src="https://www.canada.ca/content/dam/pch/testing-folder/images/profile-lg-2.png" data-media="(min-width: 1200px)"></span> 
+        <span data-src="./img/profile-xs.png" data-media="(min-width: 0px)"></span>
+		<span data-src="./img/profile-md.png" data-media="(min-width: 500px)"></span>
+		<span data-src="./img/profile-lg.png" data-media="(min-width: 960px)"></span>
+		<span data-src="./img/profile-xl.png" data-media="(min-width: 1200px)"></span> 
         <!-- Fallback content for non-JS browsers. -->
         <noscript>
-        <img src="https://www.canada.ca/content/dam/pch/testing-folder/images/profile-md.png" alt="Profile of John Doe’s face against a dark background">
+        <img src="./img/profile-xs.png" alt="Profile of John Doe’s face against a dark background">
         </noscript>
     </div>
     <div class="container hidden-xs">
